@@ -1,8 +1,13 @@
 language: shell
 
-os: osx
+os:
+  - osx
+  - linux
+
+dist: bionic
 
 install:
+  - sudo apt-get update
   - ./install_deps.sh
   - ./build-tools.sh
 

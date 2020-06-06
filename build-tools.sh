@@ -65,7 +65,7 @@ fi
 
 PREFIX=
 if [ "$(. /etc/os-release; echo $NAME)" = "Ubuntu" ]; then
-    apt-get install -y gperf libncurses5-dev flex bison ccache sed
+    sudo apt-get install -y gperf libncurses5-dev flex bison ccache sed
     PREFIX="--prefix=/usr"
 fi
 
