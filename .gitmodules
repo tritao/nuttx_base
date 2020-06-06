@@ -1,0 +1,6 @@
+[submodule "apps"]
+	path = apps
+	url = https://github.com/rflmota/incubator-nuttx-apps.git
+[submodule "nuttx"]
+	path = nuttx
+	url = https://github.com/rflmota/incubator-nuttx.git
