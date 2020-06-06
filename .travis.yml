@@ -1,0 +1,10 @@
+language: shell
+
+os: osx
+
+install:
+  - ./install_deps.sh
+  - ./build-tools.sh
+
+script:
+  - ./build.sh --clean
